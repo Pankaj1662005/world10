@@ -19,7 +19,8 @@ class _SummaryScreenState extends State<SummaryScreen> {
   List<Map<String, String>> _messages = [];
   bool _isLoading = false;
   String _selectedDate = '';
-  final String huggingFaceAPIKey = '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';
+  //final String huggingFaceAPIKey = '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';
+  final String huggingFaceAPIKey = '';
 
   Future<void> _summarizeData() async {
     final user = FirebaseAuth.instance.currentUser;
